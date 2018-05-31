@@ -1,0 +1,10 @@
+== step1_testing.py ==
+It takes `../features/features.csv' as input for classification.
+
+For each A it outputs the predicted class for all of its B.
+
+And at the end it gives the Average precision, recall and f1-score.
+
+== step2_testing.py ==
+
+It takes `../features/features.csv' as input for ranking.

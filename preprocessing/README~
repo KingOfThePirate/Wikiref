@@ -1,0 +1,17 @@
+== AB_rel.py == 
+
+This program creates a file that finds the relationship between each A-B pair. The relationship is either YES or NO. Where YES means the yes B reference section and A reference section have atleast one reference overlap (i.e. their intersect is not NULL) otherwise NO.
+
+Such result is given for all the As.
+
+== build_inlink.py == 
+
+This program creates a one-dimensional dictionary. Where a wikipedia page is the KEY and the VALUE is the list wikipedia pages that point to the KEY wikipedia page (i.e they have hyperlink to KEY wikipedia page)
+
+== build_intralink.py == 
+
+This program creates a one-dimensional dictionary. Where a wikipedia page is the KEY and the VALUE is the list wikipedia pages that are pointed by the KEY wikipedia page (i.e all the wikipedia pages that are present on KEY)
+
+== tfidf.py ==
+
+It computes the tf-idf score of the corpus and saves it in the `../pickle_files/'
