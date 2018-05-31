@@ -1,0 +1,26 @@
+== crawler.py ==
+
+Input to this code is a file. Where each line is a wikipedia page. For page `https://en.wikipedia.org/wiki/Information_retrieval', it should be given as `Information_retrieval'
+
+File name should be given as the first command line argument. 
+
+Example for such file is `example_crawl'
+
+== ComputerScience_As and Physics_As ==
+This files are the list of Target As used. 
+
+== Format of the Downloaded wikipedia page == 
+##Title:<Wikipedia Page Title>
+##Contents:
+<Contents of the entire wikipedia page. Only text. All the Hyperlink(wikilinks) are embeded in the text example --> [[Information_retrieval_applications||IR applications]] Here `Information_retrieval_applications' is the wikilink and `IR applications' is the link context. >
+##Categories:
+<All the categories the pages lies in. All category in seperate line>
+##IntraLinks:
+<All the wikilinks on the page. All in their own line>
+##External References Links:
+<All the external hyper link on the page. All in their own line>
+##References
+<All the reference in the reference section. Format of each reference is 
+Year : <Year Mentioned>$$<reference number>
+Authors : <Authors of the reference>
+Reference : <Title, page number, conference etc>
